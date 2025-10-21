@@ -24,7 +24,7 @@ body {
 .card {
   background-color: var(--white);
   border-radius: 20px;
-  padding: 16px;
+  padding: 16px 16px 40px 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 16px;
     gap: 16px;
     .card__title {
       color: var(--slate-900);
